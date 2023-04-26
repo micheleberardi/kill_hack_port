@@ -21,8 +21,8 @@ The script will find and kill processes listening on the specified port and thei
 
 
 # Example
-```
 Copy code
+```
 port_to_kill = 8080
 if kill_processes_by_port(port_to_kill):
     print(f"Killed processes on port {port_to_kill}")
