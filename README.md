@@ -16,8 +16,9 @@ To use the script, first modify the port_to_kill variable to the desired port nu
 ```
 Copy code
 python kill_processes_by_port.py
-The script will find and kill processes listening on the specified port and their child processes. It will also display information about the processes being killed, such as their process ID (PID) and name.
 ```
+The script will find and kill processes listening on the specified port and their child processes. It will also display information about the processes being killed, such as their process ID (PID) and name.
+
 
 # Example
 ```
